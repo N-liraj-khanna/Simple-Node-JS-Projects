@@ -1,0 +1,13 @@
+body{
+  background-image: url('/assets/bg.jpg');
+}
+.center-div{
+  margin: 10% 0%;
+}
+
+.btn.btn-dark {
+  padding: .4em 2em
+}
+form{
+  padding:0 3em;
+}
