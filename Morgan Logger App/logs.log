@@ -1,3 +1,2 @@
-bf52c4eb-8049-4d19-82c9-84849662ad75 User Token GET 304 / "HTTP/1.1
-88a6c246-56ee-4754-9aa2-69ec93a049f4 User Token GET 304 / "HTTP/1.1
-f3a66538-3afa-42d8-ad64-6524d9945175 User Token GET 304 / "HTTP/1.1
+a9862f29-9031-4abc-8138-47a760c7cef4 User Token GET 200 / "HTTP/1.1
+b42798c3-f326-4a83-b30d-4d57dc9fb5e2 User Token GET 404 /favicon.ico "HTTP/1.1
