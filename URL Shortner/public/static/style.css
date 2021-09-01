@@ -1,0 +1,20 @@
+body{
+  background-color: #ffcae9;
+}
+.container{
+  background-color: rgb(255, 125, 125);
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3rem;
+}
+
+.heading, .shorten-url{
+  text-align: center;
+}
+button{
+  width:100%;
+}

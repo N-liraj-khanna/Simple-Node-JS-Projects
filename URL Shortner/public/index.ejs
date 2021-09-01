@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="static/style.css">
+  <title>URL Shortner</title>
+</head>
+<body>
+  <div class="container">
+    <form method="POST" class="form">
+      <h2 class="mt-5 heading">URL Shortner</h2>
+      <input type="textbox" name="url" class="mt-5 pt-3 pb-3 form-control" placeholder="URL">
+      <button type="submit" class="pt-3 pb-3 btn btn-dark form-control">Shorten</button>
+    </form>
+    <h4 class="shorten-url mt-5">
+      <% if(shortenUrl){ %>
+        <%=shortenUrl %>
+      <% } %>
+    </h4>
+  </div>
+  <script src="static/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
