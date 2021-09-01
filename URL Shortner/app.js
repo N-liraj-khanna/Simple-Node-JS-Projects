@@ -6,7 +6,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 
 /* Constants */
-const MONGO_URL = "mongodb+srv://liraj:liraj@cluster0.yx8gt.mongodb.net/urlShortner?retryWrites=true&w=majority"
+const MONGO_URL = "mongodb+srv://<username>:<password>@cluster0.yx8gt.mongodb.net/urlShortner?retryWrites=true&w=majority"
 const app = express();
 const PORT = process.env.PORT || 3000;
 
